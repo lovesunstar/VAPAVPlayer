@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F68167492AA04B2D00E4BF8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167482AA04B2D00E4BF8C /* AppDelegate.m */; };
+		F681674C2AA04B2D00E4BF8C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F681674B2AA04B2D00E4BF8C /* SceneDelegate.m */; };
+		F681674F2AA04B2D00E4BF8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F681674E2AA04B2D00E4BF8C /* ViewController.m */; };
+		F68167522AA04B2D00E4BF8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68167502AA04B2D00E4BF8C /* Main.storyboard */; };
+		F68167542AA04B2F00E4BF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68167532AA04B2F00E4BF8C /* Assets.xcassets */; };
+		F68167572AA04B2F00E4BF8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68167552AA04B2F00E4BF8C /* LaunchScreen.storyboard */; };
+		F681675A2AA04B2F00E4BF8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167592AA04B2F00E4BF8C /* main.m */; };
+		F68167752AA04B4B00E4BF8C /* MEKHVACRender.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167642AA04B4A00E4BF8C /* MEKHVACRender.m */; };
+		F68167842AA0788900E4BF8C /* keai@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F68167812AA0788900E4BF8C /* keai@3x.png */; };
+		F68167852AA0788900E4BF8C /* vap_video_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F68167822AA0788900E4BF8C /* vap_video_2.mp4 */; };
+		F68167862AA0788900E4BF8C /* vap_video_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F68167832AA0788900E4BF8C /* vap_video_1.mp4 */; };
+		F681678B2AA07A3D00E4BF8C /* yingyuan@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F681678A2AA07A3D00E4BF8C /* yingyuan@3x.png */; };
+		F681678F2AA07E9700E4BF8C /* UIImage+MTFResize.m in Sources */ = {isa = PBXBuildFile; fileRef = F681678D2AA07E9700E4BF8C /* UIImage+MTFResize.m */; };
+		F68167922AA07EC900E4BF8C /* MEKHVACMaskAttachmentTexture+Render.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167912AA07EC900E4BF8C /* MEKHVACMaskAttachmentTexture+Render.m */; };
+		F68167C72AA0800900E4BF8C /* MEKHVACMaskReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167BA2AA0800900E4BF8C /* MEKHVACMaskReader.m */; };
+		F68167C82AA0800900E4BF8C /* MEKHVACMaskUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167BD2AA0800900E4BF8C /* MEKHVACMaskUtilities.m */; };
+		F68167C92AA0800900E4BF8C /* MEKHVACMaskAttachmentTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167BE2AA0800900E4BF8C /* MEKHVACMaskAttachmentTexture.m */; };
+		F68167CA2AA0800900E4BF8C /* MEKHVACMaskContent.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167BF2AA0800900E4BF8C /* MEKHVACMaskContent.m */; };
+		F68167CB2AA0800900E4BF8C /* MEKHVACEffectPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167C12AA0800900E4BF8C /* MEKHVACEffectPlayerView.m */; };
+		F68167CC2AA0800900E4BF8C /* MEKBaseEffectPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167C22AA0800900E4BF8C /* MEKBaseEffectPlayerView.m */; };
+		F68167CD2AA0800900E4BF8C /* MEKEffectPlayerCallbackItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F68167C32AA0800900E4BF8C /* MEKEffectPlayerCallbackItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F68167442AA04B2D00E4BF8C /* VAPAVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VAPAVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68167472AA04B2D00E4BF8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F68167482AA04B2D00E4BF8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F681674A2AA04B2D00E4BF8C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F681674B2AA04B2D00E4BF8C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F681674D2AA04B2D00E4BF8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F681674E2AA04B2D00E4BF8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F68167512AA04B2D00E4BF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F68167532AA04B2F00E4BF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F68167562AA04B2F00E4BF8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F68167582AA04B2F00E4BF8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68167592AA04B2F00E4BF8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F68167642AA04B4A00E4BF8C /* MEKHVACRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEKHVACRender.m; sourceTree = "<group>"; };
+		F681676E2AA04B4B00E4BF8C /* MEKHVACRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKHVACRender.h; sourceTree = "<group>"; };
+		F68167812AA0788900E4BF8C /* keai@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "keai@3x.png"; sourceTree = "<group>"; };
+		F68167822AA0788900E4BF8C /* vap_video_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vap_video_2.mp4; sourceTree = "<group>"; };
+		F68167832AA0788900E4BF8C /* vap_video_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vap_video_1.mp4; sourceTree = "<group>"; };
+		F681678A2AA07A3D00E4BF8C /* yingyuan@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yingyuan@3x.png"; sourceTree = "<group>"; };
+		F681678D2AA07E9700E4BF8C /* UIImage+MTFResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MTFResize.m"; sourceTree = "<group>"; };
+		F681678E2AA07E9700E4BF8C /* UIImage+MTFResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MTFResize.h"; sourceTree = "<group>"; };
+		F68167902AA07EC900E4BF8C /* MEKHVACMaskAttachmentTexture+Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MEKHVACMaskAttachmentTexture+Render.h"; sourceTree = "<group>"; };
+		F68167912AA07EC900E4BF8C /* MEKHVACMaskAttachmentTexture+Render.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MEKHVACMaskAttachmentTexture+Render.m"; sourceTree = "<group>"; };
+		F68167B82AA0800900E4BF8C /* MEKHVACMaskAttachmentTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKHVACMaskAttachmentTexture.h; sourceTree = "<group>"; };
+		F68167B92AA0800900E4BF8C /* MEKHVACMaskUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKHVACMaskUtilities.h; sourceTree = "<group>"; };
+		F68167BA2AA0800900E4BF8C /* MEKHVACMaskReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEKHVACMaskReader.m; sourceTree = "<group>"; };
+		F68167BB2AA0800900E4BF8C /* MEKHVACMaskContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKHVACMaskContent.h; sourceTree = "<group>"; };
+		F68167BC2AA0800900E4BF8C /* MEKHVACMaskReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKHVACMaskReader.h; sourceTree = "<group>"; };
+		F68167BD2AA0800900E4BF8C /* MEKHVACMaskUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEKHVACMaskUtilities.m; sourceTree = "<group>"; };
+		F68167BE2AA0800900E4BF8C /* MEKHVACMaskAttachmentTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEKHVACMaskAttachmentTexture.m; sourceTree = "<group>"; };
+		F68167BF2AA0800900E4BF8C /* MEKHVACMaskContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEKHVACMaskContent.m; sourceTree = "<group>"; };
+		F68167C12AA0800900E4BF8C /* MEKHVACEffectPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEKHVACEffectPlayerView.m; sourceTree = "<group>"; };
+		F68167C22AA0800900E4BF8C /* MEKBaseEffectPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEKBaseEffectPlayerView.m; sourceTree = "<group>"; };
+		F68167C32AA0800900E4BF8C /* MEKEffectPlayerCallbackItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEKEffectPlayerCallbackItem.m; sourceTree = "<group>"; };
+		F68167C42AA0800900E4BF8C /* MEKBaseEffectPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKBaseEffectPlayerView.h; sourceTree = "<group>"; };
+		F68167C52AA0800900E4BF8C /* MEKHVACEffectPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKHVACEffectPlayerView.h; sourceTree = "<group>"; };
+		F68167C62AA0800900E4BF8C /* MEKEffectPlayerCallbackItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKEffectPlayerCallbackItem.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F68167412AA04B2D00E4BF8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F681673B2AA04B2D00E4BF8C = {
+			isa = PBXGroup;
+			children = (
+				F68167462AA04B2D00E4BF8C /* VAPAVPlayer */,
+				F68167452AA04B2D00E4BF8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F68167452AA04B2D00E4BF8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F68167442AA04B2D00E4BF8C /* VAPAVPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F68167462AA04B2D00E4BF8C /* VAPAVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F68167602AA04B3A00E4BF8C /* Classes */,
+				F68167472AA04B2D00E4BF8C /* AppDelegate.h */,
+				F68167482AA04B2D00E4BF8C /* AppDelegate.m */,
+				F681674A2AA04B2D00E4BF8C /* SceneDelegate.h */,
+				F681674B2AA04B2D00E4BF8C /* SceneDelegate.m */,
+				F681674D2AA04B2D00E4BF8C /* ViewController.h */,
+				F681674E2AA04B2D00E4BF8C /* ViewController.m */,
+				F68167502AA04B2D00E4BF8C /* Main.storyboard */,
+				F68167532AA04B2F00E4BF8C /* Assets.xcassets */,
+				F68167552AA04B2F00E4BF8C /* LaunchScreen.storyboard */,
+				F68167582AA04B2F00E4BF8C /* Info.plist */,
+				F68167592AA04B2F00E4BF8C /* main.m */,
+			);
+			path = VAPAVPlayer;
+			sourceTree = "<group>";
+		};
+		F68167602AA04B3A00E4BF8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F68167612AA04B4A00E4BF8C /* HVAC */,
+				F681678C2AA07E7700E4BF8C /* HVACHelper */,
+				F68167802AA0788900E4BF8C /* Resources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F68167612AA04B4A00E4BF8C /* HVAC */ = {
+			isa = PBXGroup;
+			children = (
+				F68167C02AA0800900E4BF8C /* Player */,
+				F68167B72AA0800900E4BF8C /* Reader */,
+				F681676E2AA04B4B00E4BF8C /* MEKHVACRender.h */,
+				F68167642AA04B4A00E4BF8C /* MEKHVACRender.m */,
+			);
+			path = HVAC;
+			sourceTree = "<group>";
+		};
+		F68167802AA0788900E4BF8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F681678A2AA07A3D00E4BF8C /* yingyuan@3x.png */,
+				F68167812AA0788900E4BF8C /* keai@3x.png */,
+				F68167822AA0788900E4BF8C /* vap_video_2.mp4 */,
+				F68167832AA0788900E4BF8C /* vap_video_1.mp4 */,
+			);
+			name = Resources;
+			path = VAPAVPlayer/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		F681678C2AA07E7700E4BF8C /* HVACHelper */ = {
+			isa = PBXGroup;
+			children = (
+				F681678E2AA07E9700E4BF8C /* UIImage+MTFResize.h */,
+				F681678D2AA07E9700E4BF8C /* UIImage+MTFResize.m */,
+				F68167902AA07EC900E4BF8C /* MEKHVACMaskAttachmentTexture+Render.h */,
+				F68167912AA07EC900E4BF8C /* MEKHVACMaskAttachmentTexture+Render.m */,
+			);
+			path = HVACHelper;
+			sourceTree = "<group>";
+		};
+		F68167B72AA0800900E4BF8C /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				F68167B82AA0800900E4BF8C /* MEKHVACMaskAttachmentTexture.h */,
+				F68167BE2AA0800900E4BF8C /* MEKHVACMaskAttachmentTexture.m */,
+				F68167BB2AA0800900E4BF8C /* MEKHVACMaskContent.h */,
+				F68167BF2AA0800900E4BF8C /* MEKHVACMaskContent.m */,
+				F68167BC2AA0800900E4BF8C /* MEKHVACMaskReader.h */,
+				F68167BA2AA0800900E4BF8C /* MEKHVACMaskReader.m */,
+				F68167B92AA0800900E4BF8C /* MEKHVACMaskUtilities.h */,
+				F68167BD2AA0800900E4BF8C /* MEKHVACMaskUtilities.m */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		F68167C02AA0800900E4BF8C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F68167C42AA0800900E4BF8C /* MEKBaseEffectPlayerView.h */,
+				F68167C22AA0800900E4BF8C /* MEKBaseEffectPlayerView.m */,
+				F68167C62AA0800900E4BF8C /* MEKEffectPlayerCallbackItem.h */,
+				F68167C32AA0800900E4BF8C /* MEKEffectPlayerCallbackItem.m */,
+				F68167C52AA0800900E4BF8C /* MEKHVACEffectPlayerView.h */,
+				F68167C12AA0800900E4BF8C /* MEKHVACEffectPlayerView.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F68167432AA04B2D00E4BF8C /* VAPAVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F681675D2AA04B2F00E4BF8C /* Build configuration list for PBXNativeTarget "VAPAVPlayer" */;
+			buildPhases = (
+				F68167402AA04B2D00E4BF8C /* Sources */,
+				F68167412AA04B2D00E4BF8C /* Frameworks */,
+				F68167422AA04B2D00E4BF8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VAPAVPlayer;
+			productName = VAPAVPlayer;
+			productReference = F68167442AA04B2D00E4BF8C /* VAPAVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F681673C2AA04B2D00E4BF8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F68167432AA04B2D00E4BF8C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F681673F2AA04B2D00E4BF8C /* Build configuration list for PBXProject "VAPAVPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F681673B2AA04B2D00E4BF8C;
+			productRefGroup = F68167452AA04B2D00E4BF8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F68167432AA04B2D00E4BF8C /* VAPAVPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F68167422AA04B2D00E4BF8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F68167572AA04B2F00E4BF8C /* LaunchScreen.storyboard in Resources */,
+				F68167862AA0788900E4BF8C /* vap_video_1.mp4 in Resources */,
+				F68167852AA0788900E4BF8C /* vap_video_2.mp4 in Resources */,
+				F681678B2AA07A3D00E4BF8C /* yingyuan@3x.png in Resources */,
+				F68167542AA04B2F00E4BF8C /* Assets.xcassets in Resources */,
+				F68167522AA04B2D00E4BF8C /* Main.storyboard in Resources */,
+				F68167842AA0788900E4BF8C /* keai@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F68167402AA04B2D00E4BF8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F681674F2AA04B2D00E4BF8C /* ViewController.m in Sources */,
+				F68167492AA04B2D00E4BF8C /* AppDelegate.m in Sources */,
+				F68167CA2AA0800900E4BF8C /* MEKHVACMaskContent.m in Sources */,
+				F68167C92AA0800900E4BF8C /* MEKHVACMaskAttachmentTexture.m in Sources */,
+				F68167CC2AA0800900E4BF8C /* MEKBaseEffectPlayerView.m in Sources */,
+				F681675A2AA04B2F00E4BF8C /* main.m in Sources */,
+				F68167922AA07EC900E4BF8C /* MEKHVACMaskAttachmentTexture+Render.m in Sources */,
+				F68167C72AA0800900E4BF8C /* MEKHVACMaskReader.m in Sources */,
+				F681678F2AA07E9700E4BF8C /* UIImage+MTFResize.m in Sources */,
+				F68167CB2AA0800900E4BF8C /* MEKHVACEffectPlayerView.m in Sources */,
+				F68167C82AA0800900E4BF8C /* MEKHVACMaskUtilities.m in Sources */,
+				F681674C2AA04B2D00E4BF8C /* SceneDelegate.m in Sources */,
+				F68167752AA04B4B00E4BF8C /* MEKHVACRender.m in Sources */,
+				F68167CD2AA0800900E4BF8C /* MEKEffectPlayerCallbackItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F68167502AA04B2D00E4BF8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68167512AA04B2D00E4BF8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F68167552AA04B2F00E4BF8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F68167562AA04B2F00E4BF8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F681675B2AA04B2F00E4BF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F681675C2AA04B2F00E4BF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F681675E2AA04B2F00E4BF8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DH9S55UWSR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VAPAVPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suen.VAPAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F681675F2AA04B2F00E4BF8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DH9S55UWSR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VAPAVPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suen.VAPAVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F681673F2AA04B2D00E4BF8C /* Build configuration list for PBXProject "VAPAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F681675B2AA04B2F00E4BF8C /* Debug */,
+				F681675C2AA04B2F00E4BF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F681675D2AA04B2F00E4BF8C /* Build configuration list for PBXNativeTarget "VAPAVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F681675E2AA04B2F00E4BF8C /* Debug */,
+				F681675F2AA04B2F00E4BF8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F681673C2AA04B2D00E4BF8C /* Project object */;
+}
